@@ -1,0 +1,154 @@
+body {
+    background-color: #0F172A;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #F1F5F9;
+}
+
+img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 15%;
+}
+
+.apresentacao {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.apresentacao p {
+    text-align: justify;
+}
+
+.sobre h2 {
+    margin-bottom: 25px;
+}
+
+header, main, footer {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 2px solid #F1F5F9;
+    margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+    color: #F1F5F9;
+}
+h1 {
+    font-size: 40px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+
+    
+}
+
+h3 {
+    font-size: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+
+    .apresentacao {
+        flex-direction: column;
+    }
+
+    .texto-apresentacao p {
+        text-align: left;
+    }
+
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
+li::marker {
+    color: #38BDF8;
+}
+
+li {
+    margin-bottom: 10px;
+}
+.titulo-projeto {
+    color: #38BDF8;
+}
+
+.projetos {
+    background-color: #1E293B;
+    padding: 25px;
+    border-radius: 12px;
+    border-left: 4px solid #38BDF8;
+}
+footer {
+    border-top: 1px solid #334155;
+    padding-top: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+nav a {
+    color: #38BDF8;
+    
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+nav a:hover {
+   color: #F1F5F9;
+}
+.botao-projeto {
+    display: inline-block;
+    background-color: #38BDF8;
+    color: #0F172A;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.botao-projeto:hover {
+    background-color: #F1F5F9;
+}
+.redes-sociais {
+    display: flex;
+    gap: 15px;
+}
+
+.redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.redes-sociais img {
+    width: 30px;
+    height: 30px;
+    border-radius: 0;
+}
+
+.redes-sociais a:hover {
+    background-color: #38BDF8;
+}
